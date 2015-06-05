@@ -160,7 +160,7 @@ When one of the events is ready to be run (based on it's `frequency`, `at` and p
 
     - `at` return nil or `''` if not using `:at`, or otherwise any acceptable clockwork `:at` string
 
-    - (optionally) `name` returning the name for the event (used to identify it in the Clcockwork output)
+    - (optionally) `name` returning the name for the event (used to identify it in the Clockwork output)
 
     - (optionally) `tz` returning the timezone to use (default is the local timezone)
 
